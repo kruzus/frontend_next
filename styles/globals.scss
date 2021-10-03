@@ -1,16 +1,49 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-a {
-  color: inherit;
-  text-decoration: none;
-}
+$secondary_font: 'Montserrat', sans-serif;
+$main_font: 'Roboto', sans-serif;
 
 * {
+  margin: 0;
+  padding: 0;
   box-sizing: border-box;
 }
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+  background-color: #0c3da7;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  display: none;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: rgb(110, 108, 255);
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(109, 101, 179);
+}
+
+body {
+  font-family: $main_font;
+  // background-color: #0b2661;
+}
+
+// Makes the element non draggable lolz
+.noselect {
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+$shadow_color: #141414;
