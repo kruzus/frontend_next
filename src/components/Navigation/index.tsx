@@ -1,5 +1,5 @@
 import Link from "next/link";
-
+import "../../../styles/nav.module.scss"
 const Navigation: React.FC = () => {
   const isLogged = true;
 
