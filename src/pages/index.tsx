@@ -6,8 +6,7 @@ import Head from "next/head";
 const Home: NextPage = () => {
   return (
     <>
-
-    /root 
+      /root
     </>
   );
 };

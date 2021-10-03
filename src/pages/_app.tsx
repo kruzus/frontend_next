@@ -7,14 +7,13 @@ import Navigation from "../components/Navigation";
 function MainApp({ Component, pageProps }: AppProps) {
   return (
     <>
-          <Head>
-        <title>My title </title>
+      <Head>
+        <title>My title</title>
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
-    <Navigation />
-    <Component {...pageProps} />
+      <Navigation />
+      <Component {...pageProps} />
     </>
-  )
- 
+  );
 }
 export default MainApp;
